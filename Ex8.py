@@ -11,10 +11,14 @@ while True:
         
     if n <0:
         break
+        
     notas.append(n)
     a = n + a
     i = i + 1
     media = a/i
 
-print "\nA media dos seus alunos eh " + str(media)
-print 'A nota mais alta eh: ' + str(max(notas))
+try:
+    print "\nA media dos seus alunos eh: " + str(media)
+    print 'A nota mais alta eh: ' + str(max(notas))
+except:
+    print 'Nenhuma nota foi digitada'
