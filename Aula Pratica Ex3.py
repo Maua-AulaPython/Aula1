@@ -7,7 +7,7 @@ def distancia(x,y):
 def polar(x,y):
     r = distancia(x,y)
     teta = math.atan2(y/x)
-    
+
 
 
 x = float(raw_input('Coordenada x: '))
@@ -17,3 +17,6 @@ r = distancia (x,y)
 teta = math.atan2(y,x)
 
 print 'Coordenada polar:   x = %f*cos(%f)    y = %f*sen(%f)'%(r,teta,r,teta)
+
+# Nota: 0.0
+# Era para calcular a coordenada do vetor resultante entre os dois pontos!!!

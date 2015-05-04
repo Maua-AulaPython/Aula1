@@ -16,6 +16,9 @@ while type(a) != int or type(b) != int or type(c) != int or a<0 or b<0 or c <0:
     a = int(raw_input('Digite a dimensao A: '))
     b = int(raw_input('Digite a dimensao B: '))
     c = int(raw_input('Digite a dimensao C: '))
-    
+
 
 print eh_retangulo(a,b,c)
+
+# Nota: 1.0
+# Good work!
