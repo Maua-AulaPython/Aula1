@@ -11,3 +11,6 @@ x = float(raw_input('Coordenada x: '))
 y = float(raw_input('coordenada y: '))
 
 print 'A distancia entre pontos eh ' + str(distancia(x,y))
+
+# Nota: 1.0
+# Good job!

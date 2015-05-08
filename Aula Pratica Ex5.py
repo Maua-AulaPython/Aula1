@@ -25,3 +25,6 @@ h = h*1000
 print 'teta: ' + str(teta)
 print 'lambida: ' + str(lambida)
 print 'h: ' +str(h)
+
+# Nota: 0.8
+# O enunciado pedia para escrever uma função!
