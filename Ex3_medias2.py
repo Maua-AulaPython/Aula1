@@ -11,3 +11,6 @@ while True:
     media = a/i
 
 print "A media dos seus alunos eh " + str(media)
+
+# Nota: 1.0
+# Comentario: *
