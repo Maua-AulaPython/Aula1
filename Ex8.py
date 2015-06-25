@@ -22,3 +22,7 @@ try:
     print 'A nota mais alta eh: ' + str(max(notas))
 except:
     print 'Nenhuma nota foi digitada'
+
+#Nota: 0.8
+#Comentario: Codigo enxuto, o que eh bom. Entretanto ha um pequeno bug por conta
+#            do contador i, que eh somado quando o try/except falha.
